@@ -1,0 +1,18 @@
+class Player
+{
+  PImage player1 = loadImage("Player.png");
+  int x, y;
+  
+  Player(int x, int y)
+  {
+    
+    
+  }
+  
+  void display()
+  
+  {
+   image(player1,50,50);
+    
+  }
+}//end of class
